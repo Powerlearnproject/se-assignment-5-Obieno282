@@ -1,0 +1,34 @@
+Installation and navigation ofVisual Studio Code
+Open your browser of choice, open a new tab and type VS Code to visit the visual studio website and click on "Download Visual Studio". Choose download for windows and follow the instructions on the screen to download the installer. Run the installer and later the downloaded installer. In visual studio Installer, select the workloads and components necessary to you.(Installation can be modified, though it is optional). Install the downloaded Visual Studio Code by clicking the install version. Sign in with your microsoft  account or fill the prompt once it pops up. Select your development environment based on your preffered coding style and you are ready to start coding with VS Code. Prerequisites for installation of VS Code include 4 vCPU, 16GB of RAM, minimum of 850MB of available space.
+
+First time set up:
+After installation, create a new file by using the files bar at the far left cornerto see an overview of the user interface. You can install support for your programming language of use by downloading necessary extensions(eg dart extension for dart programming language, python debugger and python language support) otherwise you can doenload the extensions recommended by Visual Studio Code.
+
+User Interface Overview:
+The main components of VS Code interface include;editor where you edit your files, primary side bar, status bar.
+ The editor is the main area to edit files from(the area where you carry out the writing of code), primary side bar contains different views  which assist you while working on your project, status bar contains information about the opened project and the edited files, activity bar which is located on the far left handside allows for switch between views, panel is an additional space for views below the editor region(it can be called by pressing ctrl
+ +J) and it contains output,debug information, errors and warnings and terminal.
+
+ Command Palette:
+ Command palette is where all commands are found. It can be accessed by pressing Ctrl
+ +Shift+P and it will pop up on the top of the user interface. It can be used to search for files, run editor commands,and see a quick outline of a file.
+
+ Extensions in VS Code:
+ Extensions allow for addition of languages, debuggers and tools to support smooth flow of code during development. Most extensions are recommended to the user by VS Code depending on the language in use when they open the extensions icon on the activity bar after which they can be installed in VS Code. Extensions can be managed by being installed, disabled, updated or uninstalled through the extensions icon in the activity bar.Some essential extensions for web development include; Prettier,dart extension, flutter extension, liveserver.
+
+ Integrated Terminal:
+ The integrated terminal can either be opened by clicking on the three lines icon found on the top left of VS Code interface and clicking on terminal-->new or by pressing Ctrl+J.The integrated terminal provides integration with the editor to support features like links and error detection.
+
+ File and Folder Management:
+ Files can be created by clicking on the 'three line' icon found on the top left corner of VS Code interface-->File-->New on the drop down to create a new file. A file is opened simply by clicking on it or otherwise getting into it using the version control system using the command cd "name of file" then opening VS Code by running the command 'code .'To navigate between different files and directories in VS Code hold Ctrl and press tab to view a list of all files open in an editor group. To open one of the files, use tab to pick the desired file then release Ctrl to open it or otherwise use Ctrl+Shift+-
+
+ Settings and Preferences:
+ Settings can be found on the bottom far left of VS Code .Theme can be changed by pressing file-->preferences-->color theme, to change font size press on the settings icon on the bottom left-->from the drop down click on settings and a pop up on the font settings will appear then make changes as desired.
+
+ Debugging in VS Code:
+To run and debug a file in VS Code, click on the run and debug icon on the activity bar or otherwise press F5. A key debugging featurein VS Code is conditional breakpoints where it sets conditions based on expressions, hit counts or both.
+
+Using Source Control:
+Users can integrate git in VS Code by opening the terminal in the panel and choosing git as the version control for their code. To initializa a repository run 'git init' in the version control(git or cmd), to make a commit run the command 'git commit -m "the intended message" and to push changes to github, in the integrated terminal in VS Code run the command 'git push .'
+
+Sources:PLP class notes and recordings, Youtube, various sources on the internet
